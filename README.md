@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 🚀 O Desafio 
 
-## Getting Started
+Desafio de desenvolver **duas páginas web interativas** com roteamento entre elas para uma startup que está transformando o acesso à saúde para a comunidade LGBTQIAPN+ a [Lacrei Saude](https://lacreisaude.com.br/)
 
-First, run the development server:
+## 💻 Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Next.js - Framework React para renderização no lado do servidor e otimização de desempenho.
+
+- Styled-components - Biblioteca para estilização com CSS-in-JS.
+
+- Jest - Framework de testes para JavaScript.
+
+- React Testing Library - Biblioteca para testes de componentes React.
+
+## Como Rodar o Projeto Localmente
+
+### Requisitos
+
+- Node.js (v18 ou superior)
+
+- Gerenciador de pacotes (npm ou yarn)
+
+### Instalação
+
+Clone o repositório:
+```sh
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Instale as dependências:
+```sh
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Rode o servidor de desenvolvimento:
+```sh
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Acesse http://localhost:3000 no navegador.
 
-## Learn More
+## Testes
 
-To learn more about Next.js, take a look at the following resources:
+### Executar Testes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para rodar os testes automatizados com Jest, execute:
+```sh
+npm run test
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+ ou
+```sh
+npm run test <Nome do arquivo>
+```
+Para teste de um arquivo desejado.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<h3 align="center"> Feito com 💜 por Evelin Une </h3>
+<h3 align="center">
+<a href="https://www.linkedin.com/in/evelin-une/" target="_blank">
+  <img src="https://img.shields.io/badge/-LinkedIn-511281?style=flat&logo=linkedin&logoColor=white" width="100px">
+</a> </h3>
