@@ -1,6 +1,11 @@
 ## 🚀 O Desafio 
 
-Desafio de desenvolver **duas páginas web interativas** com roteamento entre elas para uma startup que está transformando o acesso à saúde para a comunidade LGBTQIAPN+ a [Lacrei Saude](https://lacreisaude.com.br/)
+Desafio de desenvolver **duas páginas web interativas** com roteamento entre elas para  a [Lacrei Saude](https://lacreisaude.com.br/)
+ uma startup que está transformando o acesso à saúde para a comunidade LGBTQIAPN+
+<h2 align="center">
+ <img src="https://github.com/user-attachments/assets/3cc883b5-3765-4525-a9c4-5cb8992e0023" alt="imagem da LP" width="800px" />
+</h2>
+
 
 ## 💻 Tecnologias Utilizadas
 
