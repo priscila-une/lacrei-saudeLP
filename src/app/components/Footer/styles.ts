@@ -45,6 +45,10 @@ export const Wrapper = styled.div`
       gap: 4px;
       list-style: none;
     }
+
+    a {
+        text-decoration: none; 
+    }
 `
 
 export const CodedBy = styled.p`
@@ -52,12 +56,10 @@ export const CodedBy = styled.p`
 
     & a {
         color: ${props => props.theme.text.info400};
-    }
-`
+        text-decoration: none;
 
-export const Logo = styled.p`
-    color: #018762;
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 0.8em;
+        &:hover{
+            color: ${props => props.theme.text.info500}
+        }
+    }
 `

@@ -1,14 +1,22 @@
 'use client'
 
-import * as S from './styles'
+import * as S from './styles';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer(){
     return (
       <S.Footer>
        <div>
-        <S.Logo>Lacrei</S.Logo>
-        <S.Logo>Saúde</S.Logo>
-       
+        <Link href="/">
+          <Image
+            src="https://lacreisaude.com.br/_next/static/media/global-logo.e41aea7b.svg"
+            width={200}
+            height={50}
+            alt="Lacrei Saude Logo 2"
+          />
+        </Link>
+     
  
         <S.WrapperSocial>
           <ul>
@@ -33,17 +41,32 @@ export default function Footer(){
         <S.Wrapper>
           <h3>Lacrei Saúde</h3>
           <ul>
-            <li>Quem somos</li>
+            <li>
+              <Link href="/quem-somos" >
+              Quem somos
+              </Link>
+            </li>
             <li>Nosso Propósito</li>
-            <li>Missão, Visão e Valor</li>
+            <li>
+              <Link href="/quem-somos/#Missao" >
+              Missão, Visão e Valor
+              </Link></li>
           </ul>
         </S.Wrapper>
 
         <S.Wrapper>
           <h3>Saúde</h3>
           <ul>
-            <li>Buscar atendimento</li>
-            <li>Oferecer Atendimento</li>
+            <li>
+              <Link href="/para-pacientes" >
+                Buscar atendimento
+              </Link>
+            </li>
+            <li>
+            <Link href="/para-profissionais" >
+              Oferecer Atendimento
+            </Link>
+           </li>
           </ul>
         </S.Wrapper>
         
