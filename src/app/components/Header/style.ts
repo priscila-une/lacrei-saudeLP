@@ -32,15 +32,3 @@ export const StyledLink = styled.a`
     }
 
 `
-
-export const LogoGradient = styled.span`
-    font-size: 2rem;
-    font-weight: bold;
-    background-image: linear-gradient( #008392, #00BC86);
-    background-size: 100%;
-    background-clip: text;
-    
-`
-export const Logo = styled.h2`
-    color: #018762;
-`
