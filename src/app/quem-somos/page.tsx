@@ -27,7 +27,7 @@ export default function AboutPage() {
     </S.WrapperFlex>
 
     <S.WrapperColumn>
-       <SectionTitle>Missão, Visão e Valor</SectionTitle>
+       <SectionTitle id="Missao">Missão, Visão e Valor</SectionTitle>
       
        <S.WrapperFlex>
         <Card key="Missão" title="Missão" description="Proporcionar a inclusão da comunidade ao atendimento clínico." icon="https://lacreisaude.com.br/_next/static/media/mission-icon.9ebf0d57.svg"/>
